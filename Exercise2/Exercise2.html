@@ -25,7 +25,19 @@
         <input id="Passwordtag" type="password" placeholder="Password">
         <br>
         <h4>Are you over 18?</h4>
-        
+        <label for="Yes">Yes</label>
+        <input type="radio" name="age_choice" id="Yes" value="yes">
+        <label for="no">No: </label>
+        <input type="radio" id="no" name="age_choice" value="no">
+        <h4>Do you have credit card or paypal</h4>
+        <select name="Payment">
+            <option value="Paypal">Paypal</option>
+            <option value="Credit">Credit card</option>
+        </select>
+        <h4>ANy comments?</h4>
+        <textarea name="COmments" id="" cols="30" rows="10" placeholder="Input your comments"></textarea>
+        <input type="submit" name="Submit" value="Submit Feedback">
+
 
     </form>
 </body>
